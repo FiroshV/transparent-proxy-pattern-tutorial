@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.22.1",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/hardhat-upgrades": "^1.27.0",
+    "dotenv": "^16.1.4",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.14.1"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts-upgradeable": "^4.9.0"
+  }
+}

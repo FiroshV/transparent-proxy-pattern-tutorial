@@ -1,0 +1,177 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xD36A29a30F73921c202b31bfc3f41b0a0787C617",
+    "txHash": "0x990b9047990131924d85611aebe2f59ca68b213bbad80b01556b9a285365e023"
+  },
+  "proxies": [
+    {
+      "address": "0xa48a7D0aF6b0062497749d01Da568c3b69C3C50A",
+      "txHash": "0xbb0aa0706c50bb10d69cbb6b32a568a4b8ead0d729af7b7726774df81474ecdc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x19a54d9f9E1C28D0E5c9317b9cfc2F3eE5eE537E",
+      "txHash": "0x2f7504eedddca4368b5ae1e6d8b4000e08c441b6294a660885d8c9a1e7b3f237",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "93d23c712814a9961f0bfe8256d6793a0ad0fe40149df23de8f4fafe06173f61": {
+      "address": "0x5189560F38963d3940c33C72Db14C7585C553Fa8",
+      "txHash": "0xb809fb795587f6854efe1b76a015035274106137356682fc1f5adb6668b727ef",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "label": "admin",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "PriceFeedTracker",
+            "src": "contracts\\PriceFeedTrackerV1.sol:8"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "743ea0733ca3b7075c182e386707be9e5f4ff62475d24dc8385e7dccb246ce1d": {
+      "address": "0x5b15572EAaab9DA5edd2c6d5d016bBbFd081d997",
+      "txHash": "0x271517667e1c7d22e50bff57d0e25636e6c841f45a66710fd3201fa801fbcd4c",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "label": "admin",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "PriceFeedTracker",
+            "src": "contracts\\PriceFeedTrackerV1.sol:8"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "4126927c026f6024522af7b00bb640a024a8971d1be9800c4f84b026f1bf52ce": {
+      "address": "0xAaD2B759e506A96567109eB3d4e15FE68bcBca2f",
+      "txHash": "0x59c218571a1bea0765c09c95951eb323ea524f4059ce9139a473304019b40539",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:63",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:68"
+          },
+          {
+            "label": "admin",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "PriceFeedTrackerV2",
+            "src": "contracts\\PriceFeedTrackerV2.sol:8"
+          },
+          {
+            "label": "price",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_int256",
+            "contract": "PriceFeedTrackerV2",
+            "src": "contracts\\PriceFeedTrackerV2.sol:9"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_int256": {
+            "label": "int256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
