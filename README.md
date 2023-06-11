@@ -53,7 +53,7 @@ const priceFeedTracker = await PriceFeedTracker.attach('<<<< YOUR CONTRACT ADDRE
 yarn hardhat run --network sepolia scripts/upgrade_pricefeedtracker.js
 ```
 
-###Step 7: Run the tests from command line
+### Step 7: Run the tests from command line
 
 ```bash
 yarn hardhat console --network sepolia
